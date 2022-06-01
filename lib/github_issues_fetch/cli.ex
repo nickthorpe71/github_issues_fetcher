@@ -1,4 +1,4 @@
-defmodule Issues.CLI do
+defmodule GithubIssuesFetch.CLI do
   @default_count 4
 
   @moduledoc """
@@ -29,10 +29,13 @@ defmodule Issues.CLI do
         :help
 
       {_, [user, project, count], _} ->
-        {user, project, count}
+        {user, project, String.to_integer(count)}
 
       {_, [user, project], _} ->
         {user, project, @default_count}
+
+      _ ->
+        :help
     end
   end
 end
