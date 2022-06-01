@@ -1,8 +1,8 @@
 defmodule GithubIssuesFetchTest do
   use ExUnit.Case
-  doctest GithubIssuesFetch
+  doctest Issues
 
   test "greets the world" do
-    assert GithubIssuesFetch.hello() == :world
+    assert Issues.hello() == :world
   end
 end

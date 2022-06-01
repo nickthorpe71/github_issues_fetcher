@@ -1,4 +1,4 @@
-defmodule GithubIssuesFetch.CLI do
+defmodule Issues.CLI do
   @default_count 4
 
   @moduledoc """
@@ -50,6 +50,6 @@ defmodule GithubIssuesFetch.CLI do
   end
 
   def process({user, project, _count}) do
-    GithubIssuesFetch.GithubIssues.fetch(user, project)
+    Issues.GithubIssues.fetch(user, project)
   end
 end

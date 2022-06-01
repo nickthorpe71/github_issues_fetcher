@@ -1,6 +1,6 @@
-defmodule GithubIssuesFetch do
+defmodule Issues do
   @moduledoc """
-  Documentation for `GithubIssuesFetch`.
+  Documentation for `Issues`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule GithubIssuesFetch do
 
   ## Examples
 
-      iex> GithubIssuesFetch.hello()
+      iex> Issues.hello()
       :world
 
   """

@@ -1,4 +1,4 @@
-defmodule GithubIssuesFetch.MixProject do
+defmodule Issues.MixProject do
   use Mix.Project
 
   def project do
