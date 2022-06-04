@@ -26,8 +26,8 @@ defmodule Issues.MixProject do
     [
       {:httpoison, "~> 1.0.0"},
       {:poison, "~> 3.1"},
-      {:ex_doc, "~>0.18.1"},
-      {:earmark, "~>1.2.4"}
+      {:ex_doc, ">=0.28.3"},
+      {:earmark, ">=1.4.25"}
     ]
   end
 
