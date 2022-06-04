@@ -1,5 +1,7 @@
 # Issues
 
-**TODO: Add description**
+### Useful commands
+- **mix docs**: generates auto documentation
+
 
 
