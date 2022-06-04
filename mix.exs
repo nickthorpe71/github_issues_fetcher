@@ -8,6 +8,8 @@ defmodule Issues.MixProject do
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
+      name: "Issues",
+      source_url: "https://github.com/nickthorpe71/github_issues_fetcher",
       deps: deps()
     ]
   end
@@ -23,7 +25,9 @@ defmodule Issues.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.0.0"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:ex_doc, "~>0.18.1"},
+      {:earmark, "~>1.2.4"}
     ]
   end
 
